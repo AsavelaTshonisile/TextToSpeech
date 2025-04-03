@@ -1,2 +1,2 @@
 # TextToSpeech
-Converting a input text into speech(voice)
+Using JavaScript to convert an input text into speech(voice)
