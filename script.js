@@ -22,7 +22,7 @@ const textToSpeech = () => {
     if (text.length > 80) {
         if (synth.speaking && isSpeaking) {
             button.innerText = "Pause Speech"; // Change button text to indicate pause action
-            synth.resume(); // Resume speech if it was paused
+            synth.resume(); // Resume speech if it is paused
             isSpeaking = false; // Set isSpeaking to false to indicate it's playing
         }
         else {
